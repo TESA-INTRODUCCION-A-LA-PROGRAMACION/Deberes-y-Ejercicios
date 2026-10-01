@@ -1,11 +1,11 @@
 # Cómo entregar tu trabajo
 
-## Ejercicios 1 y 2: usando la web de GitHub (no necesitas instalar nada pero se recomienda usar Git)
+## Usando la web de GitHub (no necesitas instalar nada pero se recomienda usar Git)
 
 1. Ve a la página principal del repositorio.
 2. Haz clic en el desplegable de ramas (dice `main`), escribe el nombre de una
    rama nueva, por ejemplo `maria-calculadora`, y haz clic en **Create branch**.
-3. Entra a la carpeta `exercises/01-ejemplo-deber-1-calculadora/`.
+3. Entra a la carpeta del deber que toque, por ejemplo `deberes/deber_3/`.
 4. Haz clic en **Add file → Create new file**. En el campo del nombre escribe
    `nombre_apellido/calculadora.cpp` (con tu nombre real; al escribir la `/`,
    GitHub crea tu carpeta automáticamente). Pega tu código en el editor.
