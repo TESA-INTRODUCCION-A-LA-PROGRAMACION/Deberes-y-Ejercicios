@@ -5,7 +5,7 @@
 1. Ve a la página principal del repositorio.
 2. Haz clic en el desplegable de ramas (dice `main`), escribe el nombre de una
    rama nueva, por ejemplo `maria-calculadora`, y haz clic en **Create branch**.
-3. Entra a la carpeta `exercises/01-calculadora/`.
+3. Entra a la carpeta `exercises/01-Ejemplo-deber-1-calculadora/`.
 4. Haz clic en **Add file → Upload files** y sube tu archivo `.cpp`.
    - Asegúrate de que quede dentro de tu propia carpeta: `nombre_apellido/`.
      (Si tu carpeta no existe, créala escribiendo `nombre_apellido/`
