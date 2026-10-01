@@ -8,7 +8,7 @@
 3. Entra a la carpeta `exercises/01-calculadora/`.
 4. Haz clic en **Add file → Upload files** y sube tu archivo `.cpp`.
    - Asegúrate de que quede dentro de tu propia carpeta: `nombre_apellido/`.
-     (Si tu carpeta no existe, creala escribiendo `nombre_apellido/`
+     (Si tu carpeta no existe, créala escribiendo `nombre_apellido/`
      en la ruta y GitHub creará la carpeta.)
 5. Escribe un mensaje de commit corto, por ejemplo `Agrega calculadora de Maria`.
 6. Elige **Commit directly to the `maria-calculadora` branch**
