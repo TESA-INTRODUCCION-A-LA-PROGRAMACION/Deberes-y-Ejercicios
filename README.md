@@ -11,12 +11,12 @@ También es el lugar donde practicamos Git y GitHub, como lo hacen los desarroll
 ## Estructura del repositorio
 
 ```
-exercises/
-├── 01-ejemplo-deber-1-calculadora/
+deberes/
+├── deber_3/
 │   ├── nombre_apellido/
 │   │   └── calculadora.cpp
 │   └── ...
-└── 02-.../
+└── ...
 ```
 
 ## Convención de nombres
