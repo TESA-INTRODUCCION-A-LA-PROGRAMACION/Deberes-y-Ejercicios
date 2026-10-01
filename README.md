@@ -30,4 +30,4 @@ Mira [CONTRIBUTING.md](CONTRIBUTING.md) para las instrucciones paso a paso.
 
 ## ¿Necesitas ayuda?
 
-Abre un **Issue** en este repositorio o pregunta al líder de la clase.
+Abre un **Issue** en este repositorio o pregunta al líder de la clase o el profesor.
