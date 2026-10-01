@@ -12,8 +12,8 @@ También es el lugar donde practicamos Git y GitHub, como lo hacen los desarroll
 
 ```
 exercises/
-├── 01-Ejemplo-deber-1-calculadora/
-│   ├── Tu_nombre_apellido/
+├── 01-ejemplo-deber-1-calculadora/
+│   ├── nombre_apellido/
 │   │   └── calculadora.cpp
 │   └── ...
 └── 02-.../
@@ -21,8 +21,8 @@ exercises/
 
 ## Convención de nombres
 
-- Carpeta: `nombre_apellido` (minúsculas, sin espacios se usara _ en vez de espacio, sin tildes,). Ejemplo: `maria_lopez`
-- Archivos: descriptivos y en minúsculas. Ejemplos: `calculadora.cpp` `deber1.cpp` `programaquehaceesto.cpp`
+- Carpeta: `nombre_apellido` (minúsculas, sin tildes, y con `_` en lugar de espacios). Ejemplo: `maria_lopez`
+- Archivos: descriptivos, en minúsculas y sin espacios. Ejemplos: `calculadora.cpp`, `deber1.cpp`, `suma_de_numeros.cpp`
 
 ## Cómo entregar un ejercicio
 
