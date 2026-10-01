@@ -18,13 +18,17 @@
 8. Espera la revisión. Si te piden cambios, haz más commits en la misma
    rama y el Pull Request se actualiza solo.
 
-## Usando Git en tu computadora
+## Git en tu computadora
 
+El flujo básico es:
+
+```
 git clone <url-del-repositorio>
 git checkout -b nombre-de-tu-rama
 git add .
 git commit -m "Agrega calculadora de Tu Nombre"
 git push -u origin nombre-de-tu-rama
+```
 
 Después abre un Pull Request en GitHub.
 
