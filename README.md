@@ -5,7 +5,7 @@ También es el lugar donde practicamos Git y GitHub, como lo hacen los desarroll
 ## Reglas (lo más importante)
 
 1. **Solo toca tu propia carpeta.** Nunca edites ni borres archivos de otras personas.
-2. **Nunca subas directamente a `main`.** Usa siempre una rama (branch) y un Pull Request. (El repositorio principal tendra proteccion extra).
+2. **Nunca subas directamente a `main`.** Usa siempre una rama (branch) y un Pull Request. (El repositorio principal tendrá protección extra).
 3. Sigue la convención de nombres de abajo.
 
 ## Estructura del repositorio
