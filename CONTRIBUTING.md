@@ -6,10 +6,10 @@
 2. Haz clic en el desplegable de ramas (dice `main`), escribe el nombre de una
    rama nueva, por ejemplo `maria-calculadora`, y haz clic en **Create branch**.
 3. Entra a la carpeta `exercises/01-ejemplo-deber-1-calculadora/`.
-4. Haz clic en **Add file → Upload files** y sube tu archivo `.cpp`.
-   - Asegúrate de que quede dentro de tu propia carpeta: `nombre_apellido/`.
-     (Si tu carpeta no existe, créala escribiendo `nombre_apellido/`
-     en la ruta y GitHub creará la carpeta.)
+4. Haz clic en **Add file → Create new file**. En el campo del nombre escribe
+   `nombre_apellido/calculadora.cpp` (con tu nombre real; al escribir la `/`,
+   GitHub crea tu carpeta automáticamente). Pega tu código en el editor.
+   - Si tu carpeta ya existe, entra en ella primero y crea el archivo desde ahí.
 5. Escribe un mensaje de commit corto, por ejemplo `Agrega calculadora de Maria`.
 6. Elige **Commit directly to the `maria-calculadora` branch**
    (NO a `main`) y haz clic en **Commit changes**.
@@ -41,6 +41,6 @@ Después abre un Pull Request en GitHub.
 
 ## Errores comunes
 
-- **Subí algo a `main` por accidente:** avisa al líder de la clase, no te preocupes.
-- **Mi archivo está en la carpeta equivocada:** puedes moverlo editando la ruta del archivo en GitHub.
-- **Subí archivos `.exe` o `.o`:** sube solo el código fuente `.cpp`.
+- **Subir algo a `main` por accidente:** avisa al líder de la clase, no te preocupes.
+- **El archivo está en la carpeta equivocada:** puedes moverlo editando la ruta del archivo en GitHub.
+- **Subir archivos `.exe` o `.o`:** sube solo el código fuente `.cpp`.
