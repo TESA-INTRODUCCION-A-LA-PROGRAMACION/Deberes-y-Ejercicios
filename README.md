@@ -10,12 +10,14 @@ También es el lugar donde practicamos Git y GitHub, como lo hacen los desarroll
 
 ## Estructura del repositorio
 
-Deber o actividad/
-├── 01-Ejemplo-calculadora-deber-1/
+```
+exercises/
+├── 01-Ejemplo-deber-1-calculadora/
 │   ├── Tu_nombre_apellido/
 │   │   └── calculadora.cpp
 │   └── ...
 └── 02-.../
+```
 
 ## Convención de nombres
 
