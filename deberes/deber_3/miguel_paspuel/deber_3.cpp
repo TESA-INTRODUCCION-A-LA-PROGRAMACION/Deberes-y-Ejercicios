@@ -26,7 +26,7 @@ int main() {
         inverso[i] = vector[4 - i];
     }
 
-    // Ordenar el vector alfabéticamente
+    // Ordenar el vector alfabÃ©ticamente
     sort(ordenado, ordenado + 5);
 
     // Imprimir el vector inverso
