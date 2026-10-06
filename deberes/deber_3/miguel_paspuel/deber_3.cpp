@@ -1,0 +1,48 @@
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    string vector[5];
+    string inverso[5];
+    string ordenado[5];
+
+    // Ingresar los 5 elementos
+    cout << "Ingrese 5 palabras:" << endl;
+    for (int i = 0; i < 5; i++) {
+        cout << "Palabra " << i + 1 << ": ";
+        cin >> vector[i];
+    }
+
+    // Copiar el vector original
+    for (int i = 0; i < 5; i++) {
+        ordenado[i] = vector[i];
+    }
+
+    // Crear el vector inverso
+    for (int i = 0; i < 5; i++) {
+        inverso[i] = vector[4 - i];
+    }
+
+    // Ordenar el vector alfabéticamente
+    sort(ordenado, ordenado + 5);
+
+    // Imprimir el vector inverso
+    cout << "\nVector inverso:" << endl;
+    for (int i = 0; i < 5; i++) {
+        cout << inverso[i] << " ";
+    }
+
+    // Imprimir el vector ordenado
+    cout << "\n\nVector ordenado:" << endl;
+    for (int i = 0; i < 5; i++) {
+        cout << ordenado[i] << " ";
+    }
+
+    cout << endl;
+    return 0;
+}
+
+
