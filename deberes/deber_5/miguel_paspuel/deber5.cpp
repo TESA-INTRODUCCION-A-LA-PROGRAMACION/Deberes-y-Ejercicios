@@ -3,7 +3,7 @@
 #include <ctime>   // Para time()
 
 int main() {
-    // Inicializar la semilla para generar números aleatorios diferentes en cada ejecución
+    // Inicializar la semilla para generar nÃºmeros aleatorios diferentes en cada ejecuciÃ³n
     std::srand(std::time(0));
 
     char opcion;
@@ -16,7 +16,7 @@ int main() {
             std::system("clear");
         #endif
 
-        // Generar un número aleatorio entre 1 y 100
+        // Generar un nÃºmero aleatorio entre 1 y 100
         int numeroSecreto = std::rand() % 100 + 1;
         int intentoUsuario = 0;
         int intentosRestantes = 5;
@@ -46,20 +46,20 @@ int main() {
         // Mensaje final del juego
         std::cout << "----------------------------------------\n";
         if (adivino) {
-            std::cout << "¡FELICIDADES! ¡Adivinaste el numero secreto (" << numeroSecreto << ")!\n";
+            std::cout << "Â¡FELICIDADES! Â¡Adivinaste el numero secreto (" << numeroSecreto << ")!\n";
         } else {
-            std::cout << "¡GAME OVER! Se te acabaron los intentos.\n";
+            std::cout << "Â¡GAME OVER! Se te acabaron los intentos.\n";
             std::cout << "El numero secreto era: " << numeroSecreto << "\n";
         }
 
         // Preguntar si desea volver a jugar
         std::cout << "========================================\n";
-        std::cout << "¿Deseas jugar otra vez? (s/n): ";
+        std::cout << "Â¿Deseas jugar otra vez? (s/n): ";
         std::cin >> opcion;
 
     } while (opcion == 's' || opcion == 'S');
 
-    std::cout << "\n¡Gracias por jugar! Hasta pronto.\n";
+    std::cout << "\nÂ¡Gracias por jugar! Hasta pronto.\n";
 
     return 0;
 }
