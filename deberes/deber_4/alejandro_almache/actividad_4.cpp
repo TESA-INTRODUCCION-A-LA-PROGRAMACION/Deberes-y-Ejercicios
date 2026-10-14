@@ -3,7 +3,7 @@
 #include <ctime>
 
 int main() {
-	// Inicializar la semilla para números aleatorios
+	// Inicializar la semilla para nÃºmeros aleatorios
     srand(time(0));
     
     //Generar un numero aleatortio entre 1 y 100
@@ -33,9 +33,9 @@ int main() {
 	}
     //Resultado final
     if (adivino){
-    	printf("\n¡Felicidades! Adivinaste el numero %d correctamente.\n", numeroOculto);
+    	printf("\nÂ¡Felicidades! Adivinaste el numero %d correctamente.\n", numeroOculto);
 	}else{
-		printf("\n¡Agotaste tus 5 intentos! El numero era: %d\n", numeroOculto);
+		printf("\nÂ¡Agotaste tus 5 intentos! El numero era: %d\n", numeroOculto);
 	}
 
 	return 0;
