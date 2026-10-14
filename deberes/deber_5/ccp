@@ -1,0 +1,42 @@
+#include <iostream>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+// Función para comprobar si es palíndroma
+bool esPalindroma(string cadena)
+{
+    int inicio = 0;
+    int fin = cadena.size() - 1;
+
+    while (inicio < fin)
+    {
+        if (cadena[inicio] != cadena[fin])
+        {
+            return false;
+        }
+        inicio++;
+        fin--;
+    }
+    return true;
+}
+
+int main()
+{
+    string palabra;
+
+    cout << "Ingresa una palabra para verificar si es palíndroma: " << endl;
+    cin >> palabra;
+
+    if (esPalindroma(palabra))
+    {
+        cout << "La palabra SI es palíndroma." << endl;
+    }
+    else
+    {
+        cout << "La palabra NO es palíndroma." << endl;
+    }
+
+    return 0;
+}
