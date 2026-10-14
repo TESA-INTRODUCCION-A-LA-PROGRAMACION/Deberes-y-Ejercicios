@@ -23,13 +23,13 @@ bool esPalindromo(char cadena[]){
     // 2. Comparar caracteres desde los extremos hacia el centro
     while (inicio < fin) {
         if (limpia[inicio] != limpia[fin]) {
-            return false; // No es palíndromo
+            return false; // No es palÃ­ndromo
         }
         inicio++;
         fin--;
     }
 
-    return true; // Es palíndromo
+    return true; // Es palÃ­ndromo
 
 }
 int main() {
@@ -40,7 +40,7 @@ int main() {
     // fgets permite leer cadenas con espacios incluidos
     fgets(texto, sizeof(texto), stdin);
 
-    // Eliminar el salto de línea generado por fgets si existe
+    // Eliminar el salto de lÃ­nea generado por fgets si existe
     int longitud = strlen(texto);
     if (longitud > 0 && texto[longitud - 1] == '\n') {
         texto[longitud - 1] = '\0';
@@ -48,7 +48,7 @@ int main() {
 
     // Verificar y mostrar el resultado
     if (esPalindromo(texto)) {
-        printf("\n¡Es un palindromo!\n");
+        printf("\nÂ¡Es un palindromo!\n");
     } else {
         printf("\nNo es un palindromo.\n");
         
