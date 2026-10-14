@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int numeroSecreto;
+    int numeroUsuario;
+    int intentos = 5;
+
+    numeroSecreto = rand() % 100 + 1;
+
+    printf("adivina el numerro\n");
+    printf("tenes que  adivinar un numero entre 1 y 100.\n");
+    printf("tienes 5 intentos.\n");
+
+    for (int i = 1; i <= intentos; i++) {
+        printf("\nIntento %d: ", i);
+        scanf("%d", &numeroUsuario);
+
+        if (numeroUsuario == numeroSecreto) {
+            printf("¡Felicidades! Adivinaste el numero.\n");
+            return 0;
+        } else if (numeroUsuario < numeroSecreto) {
+            printf("Pista: El numero secreto es MAYOR.\n");
+        } else {
+            printf("Pista: El numero secreto es MENOR.\n");
+        }
+    }
+
+    printf("\nHas agotado tus 5 intentos.\n");
+    printf("El numero secreto era: %d\n", numeroSecreto);
+
+    return 0;
+}
