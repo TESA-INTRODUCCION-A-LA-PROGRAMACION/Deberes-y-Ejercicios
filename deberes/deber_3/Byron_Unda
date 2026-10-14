@@ -1,0 +1,24 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    vector<string> cadenas = {"uno", "dos", "tres", "cuatro", "cinco"};
+
+    cout << "Cadenas en orden inverso:" << endl;
+    for (int i = cadenas.size() - 1; i >= 0; i--) {
+        cout << cadenas[i] << endl;
+    }
+
+    // Ordenar alfabéticamente
+    sort(cadenas.begin(), cadenas.end());
+    
+    cout << "\nCadenas ordenadas alfabeticamente:" << endl;
+    for (int i = 0; i < cadenas.size(); i++) {
+        cout << cadenas[i] << endl;
+    }
+
+    return 0;
+}
