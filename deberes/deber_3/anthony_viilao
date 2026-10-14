@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+
+const int MAX = 100;
+
+int main() {
+    int numeros[MAX];  
+    int pares[MAX];    
+    int impares[MAX];   
+    int n;              
+    int cantPares = 0; 
+    int cantImpares = 0;
+    int i;
+    
+    do {
+        cout << "Cuantos numeros va a ingresar (1 a " << MAX << ")? ";
+        cin >> n;
+    } while (n < 1 || n > MAX);
+
+    for (i = 0; i < n; i++) {
+        cout << "Numero " << i + 1 << ": ";
+        cin >> numeros[i];
+    }
+
+    for (i = 0; i < n; i++) {
+        if (numeros[i] % 2 == 0) {
+            pares[cantPares] = numeros[i];
+            cantPares++;
+        } else {
+            impares[cantImpares] = numeros[i];
+            cantImpares++;
+        }
+    }
+
+    cout << endl << "Lista de pares (" << cantPares << "): ";
+    if (cantPares == 0) {
+        cout << "no hay numeros pares";
+    } else {
+        for (i = 0; i < cantPares; i++) {
+            cout << pares[i] << " ";
+        }
+    }
+    cout << endl;
+  
+    cout << "Lista de impares (" << cantImpares << "): ";
+    if (cantImpares == 0) {
+        cout << "no hay numeros impares";
+    } else {
+        for (i = 0; i < cantImpares; i++) {
+            cout << impares[i] << " ";
+        }
+    }
+    cout << endl;
+
+    return 0;
+}
