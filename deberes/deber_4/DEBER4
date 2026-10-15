@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define MINIMO 1
+#define MAXIMO 100
+#define INTENTOS 5
+
+int main() {
+
+    int numero, intento;
+    int contador = 0;
+
+    srand(time(NULL));
+
+    numero = MINIMO + rand() % MAXIMO;
+
+    printf("Adivina el numero entre %d y %d\n", MINIMO, MAXIMO);
+
+    while (contador < INTENTOS) {
+
+        printf("\nIntento %d de %d: ", contador + 1, INTENTOS);
+        scanf("%d", &intento);
+
+        if (intento == numero) {
+            printf("¡Correcto! Adivinaste el numero.\n");
+            break;
+        }
+        else if (intento < numero) {
+            printf("Pista: el numero es mayor.\n");
+        }
+        else {
+            printf("Pista: el numero es menor.\n");
+        }
+
+        contador++;
+    }
+
+    if (intento != numero) {
+        printf("\nSe acabaron los intentos.\n");
+        printf("El numero era: %d\n", numero);
+    }
+
+    return 0;
+}
